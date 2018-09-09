@@ -171,6 +171,11 @@ AddOutputFilter chunkFilter
 			<Item Name="Gyroscope demo.lvproj" Type="Document" URL="../Gyroscope Code (calibration)/Gyroscope demo.lvproj"/>
 			<Item Name="Gyroscope.vi" Type="VI" URL="../Gyroscope Code (calibration)/Gyroscope.vi"/>
 		</Item>
+		<Item Name="PIXY Codes" Type="Folder">
+			<Item Name="PixySerialInit.vi" Type="VI" URL="../PIXY Codes/PixySerialInit.vi"/>
+			<Item Name="PixySigDetect.vi" Type="VI" URL="../PIXY Codes/PixySigDetect.vi"/>
+			<Item Name="Untitled 1.vi" Type="VI" URL="../PIXY Codes/Untitled 1.vi"/>
+		</Item>
 		<Item Name="encoder-analysis-lib.lvlib" Type="Library" URL="../encoder-analysis-lib.lvlib"/>
 		<Item Name="Robot Data Variables.lvlib" Type="Library" URL="../Robot Data Variables.lvlib"/>
 		<Item Name="LIDAR Data Variables.lvlib" Type="Library" URL="../LIDAR Data Variables.lvlib"/>
@@ -410,6 +415,10 @@ AddOutputFilter chunkFilter
 				<Item Name="EL-RIO-CM v1.0 I2C Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/EL-RIO-CM v1.0/I2C/typedefs/EL-RIO-CM v1.0 I2C Channels Enum.ctl"/>
 				<Item Name="niLvFpga_Open_roboRIO.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/roboRIO/niLvFpga_Open_roboRIO.vi"/>
 				<Item Name="niLvFpga_Open_ELVIS RIO CM.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/ELVIS RIO CM/niLvFpga_Open_ELVIS RIO CM.vi"/>
+				<Item Name="UART.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/UART/UART.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
