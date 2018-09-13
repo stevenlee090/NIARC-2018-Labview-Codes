@@ -10,12 +10,14 @@
 	<Property Name="varPersistentID:{35B9AE66-338D-44C5-B778-EDE7F2559FE6}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/LIDAR Angle (rad)</Property>
 	<Property Name="varPersistentID:{3A964046-50AA-4E94-9290-B64B7E7096E2}" Type="Ref">/NI-myRIO-1900-unimelb-1/Robot Data Variables.lvlib/Compass Heading (deg)</Property>
 	<Property Name="varPersistentID:{449CC519-9210-45E1-9B2C-40059C6573CE}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/Inner Threshold (m)</Property>
+	<Property Name="varPersistentID:{5B8E6AC2-12C1-44DD-91E5-5A49B9D8D8E3}" Type="Ref">/NI-myRIO-1900-unimelb-1/Robot Data Variables.lvlib/Obs. Avoid. Wall SetPt (m)</Property>
 	<Property Name="varPersistentID:{6D680EEB-ECA2-4686-9749-11E20A624588}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/LIDAR Magnitude (m)</Property>
 	<Property Name="varPersistentID:{7D968CCF-2C64-4415-B436-4A4C97ACF5DE}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/SubGoal XY (m)</Property>
 	<Property Name="varPersistentID:{7EFF8B24-076F-4E1B-803D-10989EE44ED7}" Type="Ref">/NI-myRIO-1900-unimelb-1/Robot Data Variables.lvlib/Robot Current Heading - Theta Actual (rad)</Property>
 	<Property Name="varPersistentID:{876FE3ED-F7AD-4673-BE3B-2CACE1C5F620}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/Heading Command (rad)</Property>
 	<Property Name="varPersistentID:{8CF44973-1432-4D99-AFAF-16446B1CBB18}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/VY Command (m|s)</Property>
-	<Property Name="varPersistentID:{9EE9AED2-B616-4B51-9DA5-BFDDFD24BF67}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/LIDAR Left y-avg (m)</Property>
+	<Property Name="varPersistentID:{94D9CFC5-60C0-498D-AAA6-F03C753D7960}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/LIDAR Left y-avg (side) (m)</Property>
+	<Property Name="varPersistentID:{9EE9AED2-B616-4B51-9DA5-BFDDFD24BF67}" Type="Ref">/NI-myRIO-1900-unimelb-1/LIDAR Data Variables.lvlib/LIDAR Left y-avg (forward) (m)</Property>
 	<Property Name="varPersistentID:{ADF62E48-C35C-4CAE-9508-38DD11FAA12D}" Type="Ref">/NI-myRIO-1900-unimelb-1/encoder-analysis-lib.lvlib/Period</Property>
 	<Property Name="varPersistentID:{B6A0317C-2310-4D24-BABC-B54451264CF3}" Type="Ref">/NI-myRIO-1900-unimelb-1/Robot Data Variables.lvlib/Gyroscope Z-displacement (deg)</Property>
 	<Property Name="varPersistentID:{C49E9016-8494-4E8F-BF02-AD40F20E09EF}" Type="Ref">/NI-myRIO-1900-unimelb-1/Robot Data Variables.lvlib/Robot XY Position (m)</Property>
@@ -193,6 +195,7 @@ AddOutputFilter chunkFilter
 		<Item Name="VFH Wrapper (SubVI).vi" Type="VI" URL="../VFH Wrapper (SubVI).vi"/>
 		<Item Name="VFH Visualization.vi" Type="VI" URL="../Simulated Mecanum Robot/VFH Visualization.vi"/>
 		<Item Name="Avg Dist To Left Wall (SubVI).vi" Type="VI" URL="../Avg Dist To Left Wall (SubVI).vi"/>
+		<Item Name="LIDAR Compute Heading Angle (SubVI).vi" Type="VI" URL="../LIDAR Compute Heading Angle (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AI IRQ FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/IRQ/typedefs/AI IRQ FPGA Reference.ctl"/>
