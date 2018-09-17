@@ -177,6 +177,7 @@ AddOutputFilter chunkFilter
 			<Item Name="PixySerialInit.vi" Type="VI" URL="../PIXY Codes/PixySerialInit.vi"/>
 			<Item Name="PixySigDetect.vi" Type="VI" URL="../PIXY Codes/PixySigDetect.vi"/>
 			<Item Name="Untitled 1.vi" Type="VI" URL="../PIXY Codes/Untitled 1.vi"/>
+			<Item Name="PixyAllDetect.vi" Type="VI" URL="../PIXY Codes/PixyAllDetect.vi"/>
 		</Item>
 		<Item Name="encoder-analysis-lib.lvlib" Type="Library" URL="../encoder-analysis-lib.lvlib"/>
 		<Item Name="Robot Data Variables.lvlib" Type="Library" URL="../Robot Data Variables.lvlib"/>
